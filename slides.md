@@ -212,11 +212,10 @@ layout: revsys-content
 class: revsys-questions
 ---
 
-# Questions?
-
 <div class="revsys-contact-grid">
   <div class="revsys-contact-details">
-    <p class="revsys-contact-thanks">Thank you!</p>
+    <p class="revsys-contact-thanks">Thank you for being here</p>
+    <h1>Questions?</h1>
     <h2>Frank Wiles</h2>
     <a class="revsys-contact-email" href="mailto:frank@revsys.com">frank@revsys.com</a>
   </div>
@@ -227,4 +226,9 @@ class: revsys-questions
     </a>
     <a class="revsys-contact-url" href="https://frankwiles.com/contact/">frankwiles.com/contact/</a>
   </div>
+</div>
+
+<div class="revsys-slides-link">
+  <span>Slides</span>
+  <a href="https://frankwiles.github.io/kc-oss-happyhour-2026/">https://frankwiles.github.io/kc-oss-happyhour-2026/</a>
 </div>

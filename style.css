@@ -412,54 +412,99 @@
 
 .revsys-contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) 320px;
   align-items: center;
-  gap: 40px;
-}
-
-.revsys-contact-details {
-  padding-left: 24px;
-  border-left: 4px solid var(--revsys-blue);
+  gap: 48px;
+  min-height: 380px;
 }
 
 .revsys-contact-details .revsys-contact-thanks {
   margin: 0 0 16px;
   color: #52617c;
-  font-size: 24px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.revsys-contact-details h1 {
+  margin: 0 0 32px;
+  font-size: 72px;
+  line-height: 1.05;
+  letter-spacing: -0.055em;
+}
+
+.revsys-contact-details h1::after {
+  width: 72px;
+  margin-top: 28px;
 }
 
 .revsys-contact-details h2 {
-  margin: 0 0 12px;
-  font-size: 38px;
+  margin: 0 0 8px;
+  font-size: 32px;
+  letter-spacing: -0.025em;
 }
 
 .revsys-contact-email {
-  font-size: 26px;
+  font-size: 23px;
 }
 
 .revsys-contact-connect {
+  padding: 24px 20px;
+  border: 1px solid #e3e8f1;
+  border-radius: 16px;
+  background: #f5f7fb;
   text-align: center;
 }
 
 .revsys-contact-connect h3 {
-  margin: 0 0 12px;
-  font-size: 24px;
+  margin: 0 0 18px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 .revsys-contact-qr {
   display: block;
   width: 220px;
   height: 220px;
-  margin: 0 auto 8px;
+  margin: 0 auto 14px;
+  border-radius: 8px;
 }
 
-.revsys-contact-url {
-  font-size: 16px;
+.revsys-contact-connect .revsys-contact-url {
+  color: #52617c;
+  font-size: 14px;
 }
 
-.revsys-questions .revsys-contact-grid a {
+.revsys-questions a {
   text-decoration: none;
   border-bottom: none;
+}
+
+.revsys-slides-link {
+  position: absolute;
+  left: 56px;
+  right: 140px;
+  bottom: 28px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid #e3e8f1;
+  color: #707783;
+  font-size: 12px;
+}
+
+.revsys-slides-link span {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.revsys-slides-link a {
+  color: inherit;
 }
 
 .revsys-github-image {
