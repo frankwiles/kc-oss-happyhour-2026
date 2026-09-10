@@ -1,5 +1,9 @@
 ---
 theme: default
+layout: revsys-title
+colorSchema: light
+defaults:
+  layout: revsys-content
 title: Open Source Happy Hour 2026
 info: |
   A technical conference talk for Open Source Happy Hour 2026.
@@ -11,89 +15,68 @@ drawings:
   persist: false
 ---
 
-# Open Source Happy Hour 2026
+# Open Source Maintainership 
+## ... in an LLM world
 
-A technical conference talk
+::footer::
 
-<div class="abs-bl m-12 flex items-center gap-2 text-sm opacity-70">
-  <span>Frank Wiles</span>
-  <span>·</span>
-  <span>2026</span>
-</div>
+Frank Wiles · REVSYS · 2026
 
 <!--
 Speaker notes go here. Press S to open presenter mode.
 -->
 
 ---
-layout: center
+layout: revsys-content
+class: revsys-bio
 ---
-
-# The big idea
-
-<div class="mt-8 text-2xl opacity-70">
-  Replace this with the one sentence you want the audience to remember.
-</div>
-
----
-layout: two-cols-header
----
-
-# A technical deep dive
 
 ::left::
 
-## The problem
-
-- What makes this hard?
-- Why do existing approaches fall short?
-- Who is affected?
+<img class="revsys-bio-photo" src="/frank-wiles.jpg" alt="Frank Wiles" />
 
 ::right::
 
-## The approach
+# Frank Wiles
 
-```ts {1|3-5|all}
-export function example(input: string) {
-  // Highlight important lines as you speak.
-  return input
-    .trim()
-    .toLowerCase()
-}
-```
+- Founder of REVSYS
+- Django Steering Council, PSF Fellow, former DSF President
+- First OSS contribution nearly 30 years ago
+
+... and probably needs an updated headshot 
 
 ---
-layout: section
+layout: image
+image: /ai-pill.png
+backgroundSize: contain
+class: bg-black
 ---
 
-# Demo
-
-Show, don't tell.
+<!-- Full-image slide; contain preserves the text around the image edges. -->
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: /matheus-oliveira--43fgxLszeI-unsplash.jpg
+class: revsys-slide revsys-power
 ---
 
-# Three things to remember
+# With great power...
 
-<div class="grid grid-cols-3 gap-8 mt-12">
-  <div class="rounded-xl border border-gray-400/30 p-6">
-    <div class="text-4xl font-bold text-blue-500">1</div>
-    <div class="mt-3">First takeaway</div>
-  </div>
-  <div class="rounded-xl border border-gray-400/30 p-6">
-    <div class="text-4xl font-bold text-blue-500">2</div>
-    <div class="mt-3">Second takeaway</div>
-  </div>
-  <div class="rounded-xl border border-gray-400/30 p-6">
-    <div class="text-4xl font-bold text-blue-500">3</div>
-    <div class="mt-3">Third takeaway</div>
-  </div>
+<div class="revsys-photo-credit">
+  Photo by <a href="https://unsplash.com/@matheusoliver_____?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matheus Oliveira</a> on <a href="https://unsplash.com/photos/a-spider-man-standing-next-to-a-building--43fgxLszeI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </div>
 
 ---
-layout: end
+layout: revsys-content
+class: revsys-warning
+---
+
+<BloodDrips />
+
+# We're killing Open Source
+
+---
+layout: revsys-content
 ---
 
 # Questions?
