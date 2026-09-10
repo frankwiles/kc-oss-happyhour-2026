@@ -25,6 +25,25 @@ pnpm export
 
 Edit [`slides.md`](./slides.md) to update the deck. Add static assets to `public/` and reusable Vue components to `components/`.
 
+## Publish to GitHub Pages
+
+The workflow in [`.github/workflows/deploy-pages.yml`](./.github/workflows/deploy-pages.yml) builds and deploys the deck on every push to `main`. It can also be run manually from the Actions tab.
+
+1. Create a GitHub repository and add it as this project's `origin` remote.
+2. In the repository's **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source.
+3. Commit the project (including `public/` and `.github/workflows/deploy-pages.yml`) and push to `main`.
+4. Open **Actions → Deploy slides to GitHub Pages** to follow deployment. The deployment summary links to the published site.
+
+The workflow detects the Pages base path automatically, so no repository name needs to be hardcoded. It also includes a `404.html` fallback for direct links to individual slides (GitHub Pages may return HTTP 404, but the slide app still loads).
+
+To test a repository-path build locally:
+
+```bash
+pnpm exec slidev build --base /YOUR-REPO-NAME/
+```
+
+The published deck and its assets will be publicly accessible, including any speaker notes bundled by Slidev. Review the content before publishing.
+
 ## REVSYS slide templates
 
 Both layouts use a white background and the logo's navy / blue palette. Styling lives in `style.css`; the logo is bundled locally in `public/revsys-logo.png`.
