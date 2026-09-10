@@ -192,3 +192,281 @@
 .revsys-warning h1::after {
   display: none;
 }
+
+.revsys-vouch > a {
+  font-size: 24px;
+}
+
+.revsys-definition {
+  margin-top: 24px;
+  padding: 20px 28px;
+  border-left: 4px solid var(--revsys-blue);
+  border-radius: 0 8px 8px 0;
+  background: #f3f5f9;
+  color: #252f3f;
+}
+
+.revsys-definition-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.revsys-definition-heading strong {
+  font-family: Georgia, serif;
+  font-size: 36px;
+}
+
+.revsys-definition-heading span,
+.revsys-definition-heading em {
+  font-size: 18px;
+  color: #52617c;
+}
+
+.revsys-definition-forms {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #52617c;
+}
+
+.revsys-definition-senses {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 10px 16px;
+  margin: 18px 0;
+  font-size: 23px;
+  line-height: 1.35;
+}
+
+.revsys-definition-senses dt {
+  font-weight: 700;
+}
+
+.revsys-definition-senses dd {
+  margin: 0;
+}
+
+.revsys-definition-source {
+  font-size: 12px;
+  text-align: right;
+}
+
+.revsys-harder-image {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  margin-inline: auto;
+}
+
+.revsys-contributing h1 {
+  font-size: 42px;
+}
+
+.revsys-contributing li {
+  font-size: 28px;
+  line-height: 1.4;
+  margin-block: 16px;
+}
+
+.slidev-layout.revsys-github {
+  padding-top: 24px;
+}
+
+.revsys-github-heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto 16px;
+}
+
+.revsys-github-logo {
+  width: 64px;
+  height: 64px;
+}
+
+.revsys-github-heading h1 {
+  margin: 0;
+}
+
+.revsys-github-heading h1::after {
+  display: none;
+}
+
+.slidev-layout.revsys-survival {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.revsys-survival h1 {
+  margin: 0;
+  font-size: 80px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.85);
+}
+
+.slidev-layout.revsys-weekend {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px 40px 64px;
+  color: #fff;
+}
+
+.revsys-weekend-callout {
+  position: absolute;
+  top: 32px;
+  color: #000;
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.revsys-weekend-left {
+  left: 40px;
+}
+
+.revsys-weekend-right {
+  right: 40px;
+}
+
+.revsys-weekend-problems {
+  top: 100px;
+  left: 40px;
+  right: 40px;
+  text-align: center;
+}
+
+.revsys-weekend h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.85);
+}
+
+.slidev-layout.revsys-move {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 48px;
+  color: #fff;
+}
+
+.revsys-move::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+
+.revsys-move h1 {
+  position: relative;
+  width: 40%;
+  margin: 0;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+  text-align: right;
+}
+
+.revsys-survival-credit {
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.revsys-survival-credit a {
+  color: inherit;
+}
+
+.revsys-github-source {
+  position: absolute;
+  left: 56px;
+  bottom: 20px;
+  right: 128px;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.revsys-github-source a {
+  color: #555;
+}
+
+.revsys-contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.revsys-contact-details {
+  padding-left: 24px;
+  border-left: 4px solid var(--revsys-blue);
+}
+
+.revsys-contact-details .revsys-contact-thanks {
+  margin: 0 0 16px;
+  color: #52617c;
+  font-size: 24px;
+}
+
+.revsys-contact-details h2 {
+  margin: 0 0 12px;
+  font-size: 38px;
+}
+
+.revsys-contact-email {
+  font-size: 26px;
+}
+
+.revsys-contact-connect {
+  text-align: center;
+}
+
+.revsys-contact-connect h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+}
+
+.revsys-contact-qr {
+  display: block;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 8px;
+}
+
+.revsys-contact-url {
+  font-size: 16px;
+}
+
+.revsys-questions .revsys-contact-grid a {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.revsys-github-image {
+  display: block;
+  width: 600px;
+  max-width: 100%;
+  max-height: 338px;
+  object-fit: contain;
+  margin-inline: auto;
+}
